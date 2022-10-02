@@ -9,3 +9,8 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
 }
+
+pmd {
+    ruleSets.clear()
+    ruleSetFiles(files("config/pmd/customruleset.xml"))
+}
