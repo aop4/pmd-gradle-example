@@ -2,5 +2,5 @@ A simple codebase demonstrating how to configure custom rulesets for the Gradle 
 
 # Run PMD
 ```bash
-gradlew run
+gradlew check
 ```
